@@ -5,15 +5,276 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #fb8500;
-  display: flex;
+  background-color: #edede9;
   justify-content: center;
   align-items: center;
+  padding: 3rem;
 }
-
+.header-container{
+  display: flex;
+  justify-content: justify;
+  flex-direction: row;
+  align-items: justify;
+  background-color: #d6ccc2;
+  color: black;
+  border-radius: 2rem;
+}
+.logo {
+  width: 700px;
+  height: 700px;
+  margin: 0;
+  padding: 0;
+  object-fit: cover;
+}
+.text {
+  font-size: 1.5rem;
+  text-align: justify;
+  color: #023047;
+  margin-top: 10rem;
+  padding: 2rem 7rem 2rem 7rem;
+  align-items: center;
+}
+h2 {
+  font-size: 2rem;
+  text-align: center;
+  color: black;
+  margin-bottom: 1rem;
+}
+.hero{
+  display: flex;
+  justify-content: justify;
+  flex-direction: column;
+  align-items: center;
+  background-color: #edede9;
+  color: black;
+  padding: 2rem;
+  margin-top: 2rem ;
+  border-radius: 2rem;
+}
+.hero-text{
+ font-size: 1.5rem;
+ text-align: justify;
+ color:black ;
+ margin-top: 1rem;
+ padding: 2rem ;
+}
+.hero-image{
+  width: 700px;
+  height: 500px;
+  margin: 0;
+  padding: 0;
+}
 h1 {
   font-size: 2rem;
   font-weight: bold;
   text-align: center;
-  color: #023047;
+  color: black;
 }
+.border{
+  height: 2px;
+  width: 1000px;
+  background: #FFEFBA;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.table-of-contents{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: justify;
+  border-radius: 1rem;
+  background-color: #e3d5ca;
+  color: black;
+  padding: 1.5rem;
+  text-align: justify;
+  margin-top: 1.5rem ;
+  margin-bottom: 1.5rem;
+}
+.table-of-contents ul{
+  font-size: 1.5rem;
+  margin: 0;
+  padding: 1rem;
+}
+.table-of-contents ul li{
+  margin-left: 1rem;
+}
+.table-of-contents ul a{
+  text-decoration: none;
+  color: black;
+}
+.table-of-contents ul a:hover{
+  color: #023047;
+  text-decoration: underline;
+}
+.sign-up {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.btn{
+  border: 1px solid #023047;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  background-color: black;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+}
+.btn:hover{
+  background-color: #023047;
+  color: #fff;
+}
+.airlines{
+  display: flex;
+  justify-content: justify;
+  flex-direction: row;
+  align-items: justify;
+  background-color: #edede9;
+  color: black;
+  border-radius: 2rem;
+  margin-bottom: 2rem;
+}
+.airlines-image {
+  width: 700px;
+  height: 700px;
+  margin: 0;
+  padding: 0;
+  object-fit: cover;
+}
+.airlines-text {
+  font-size: 1.5rem;
+  text-align: justify;
+  color: black;
+  margin-top: 10rem;
+  padding: 2rem 7rem 2rem 7rem;
+  align-items: center;
+}
+
+.hotels{
+  display: flex;
+  justify-content: justify;
+  flex-direction: row;
+  align-items: justify;
+  background-color: #d6ccc2;
+  color: black;
+  border-radius: 2rem;
+  margin-top: 3rem;
+}
+.hotels-image {
+  width: 700px;
+  height: 750px;
+  margin: 0;
+  padding: 0;
+  object-fit: cover;
+}
+.hotels-text {
+  font-size: 1.5rem;
+  text-align: justify;
+  color: black;
+  margin-top: 7rem;
+  padding: 2rem 7rem 2rem 7rem;
+  align-items: center;
+}
+.restaurants{
+  display: flex;
+  justify-content: justify;
+  flex-direction: row;
+  align-items: justify;
+  background-color: #d6ccc2;
+  color: black;
+  border-radius: 2rem;
+  margin-top: 3rem;
+}
+.restaurants-image {
+  width: 700px;
+  margin: 0;
+  padding: 0;
+  object-fit: cover;
+}
+.restaurants-text {
+  font-size: 1.5rem;
+  text-align: justify;
+  color: black;
+  margin-top: 7rem;
+  padding: 2rem 7rem 2rem 7rem;
+  align-items: center;
+}
+.places{
+  display: flex;
+  justify-content: justify;
+  flex-direction: row;
+  align-items: justify;
+  background-color: #d6ccc2;
+  color: black;
+  border-radius: 2rem;
+  margin-top: 3rem;
+}
+.places-image {
+  width: 700px;
+  height: 700px;
+  margin: 0;
+  padding: 0;
+  object-fit: cover;
+}
+.places-text {
+  font-size: 1.5rem;
+  text-align: justify;
+  color: black;
+  margin-top: 10rem;
+  padding: 2rem 7rem 2rem 7rem;
+  align-items: center;
+}
+.Call-to-action{
+  display: flex;
+  justify-content: justify;
+  flex-direction: column;
+  align-items: center;
+  background-color: #edede9;
+  color: black;
+  border-radius: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.button{
+  border: 1px solid #023047;
+  padding: 0.5rem 1rem;
+  margin: 37rem;
+  border-radius: 5px;
+  background-color: black;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+}
+.button:hover{
+  background-color: #023047;
+  color: #fff;
+}
+.footer-container{
+  display: flex;
+  justify-content: justify;
+  flex-direction: row;
+  align-items: justify;
+  background-color: #d6ccc2;
+  color: black;
+  border-radius: 2rem;
+}
+.logo {
+  width: 700px;
+  height: 700px;
+  margin: 0;
+  padding: 0;
+  object-fit: cover;
+}
+.footer-text {
+  font-size: 1.5rem;
+  text-align: justify;
+  color: #023047;
+  margin-top: 10rem;
+  padding: 2rem 7rem 2rem 7rem;
+  align-items: center;
+}
+
